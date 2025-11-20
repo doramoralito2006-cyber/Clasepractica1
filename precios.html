@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Empresa de Servicios</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f7f7f7;
+                color: #333;
+            }
+            header {
+                background-color: #1e90ff;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            nav {
+                background-color: #333;
+                overflow: hidden;
+                text-align: center;
+            }
+            nav a {
+                display: inline-block;
+                color: white;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            nav a:hover {
+                background-color: #575757;
+            }
+            section {
+                padding: 40px 20px;
+                max-width: 1000px;
+                margin: auto;
+            }
+            h2 {
+                color: #1e90ff;
+                margin-bottom: 10px;
+            }
+            .precios, .recursos, .faq {
+                background-color: #f0f0f0;
+                border-radius: 8px;
+                padding: 20px;
+            }
+            footer {
+                background-color: #1e90ff;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                margin-top: 30px;
+            }
+            @media (max-width: 768px) {
+                nav {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                nav a {
+                    width: 90%;
+                    text-align: center;
+                }
+            }
+            table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            }
+            table, th, td {
+            border: 1px solid #ccc;
+            }
+            th, td {
+            padding: 12px;
+            text-align: left;
+            }
+            th {
+            background: #bad6f8d0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>SD</h1>
+            <p>Expertos en desarrollo web, diseño gráfico y marketing digital</p>
+        </header>
+        <nav>
+            <a href="http://localhost/Clasepractica1/inicio.html">Inicio</a>
+            <a href="http://localhost/Clasepractica1/contacto.html">Contacto</a>
+            <a href="http://localhost/Clasepractica1/descripcion.html">Empresa</a>
+            <a href="http://localhost/Clasepractica1/noticias.html">Noticias</a>
+            <a href="http://localhost/Clasepractica1/preguntas.html">Preguntas Frecuentes</a>
+            <a href="http://localhost/Clasepractica1/portafolio.html">Portafolio</a>
+            <a href="http://localhost/Clasepractica1/testimonios.html">Testimonios</a>
+            <a href="http://localhost/Clasepractica1/formcontacto.html">Contacto</a>
+            <a href="#precios">Precios</a>
+            <a href="http://localhost/Clasepractica1/recursos.html">Recursos</a>
+        </nav>
+        <section id="precios" class="precios">
+            <h2>Precios</h2>
+        <h2>Diseño y Desarrollo Web</h2>
+        <table>
+        <tr>
+            <th>Plan</th>
+            <th>Características</th>
+            <th>Precio desde</th>
+        </tr>
+        <tr>
+            <td>Básico</td>
+            <td>Sitio de 1 a 3 secciones, diseño adaptable, formulario de contacto</td>
+            <td>$4,500</td>
+        </tr>
+        <tr>
+            <td>Profesional</td>
+            <td>Hasta 6 secciones, integración con redes sociales, WhatsApp, SEO básico</td>
+            <td>$8,900</td>
+        </tr>
+        <tr>
+            <td>Corporativo</td>
+            <td>Web administrable, blog, multilenguaje, optimización avanzada</td>
+            <td>$13,900</td>
+        </tr>
+        </table>
+        <h2>Gestión de Redes Sociales</h2>
+        <table>
+        <tr>
+            <th>Plan</th>
+            <th>Incluye</th>
+            <th>Precio mensual</th>
+        </tr>
+        <tr>
+            <td>Esencial</td>
+            <td>8 publicaciones, diseño gráfico, calendario de contenidos</td>
+            <td>$2,500</td>
+        </tr>
+        <tr>
+            <td>Avanzado</td>
+            <td>12 publicaciones, reels, gestión de comunidad</td>
+            <td>$4,200</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>20 publicaciones, campañas pagadas, reportes mensuales</td>
+            <td>$6,500</td>
+        </tr>
+        </table>
+        <h2>Publicidad Digital</h2>
+        <table>
+        <tr>
+            <th>Servicio</th>
+            <th>Incluye</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Setup inicial</td>
+            <td>Configuración de campañas, segmentación, diseño de anuncios</td>
+            <td>$2,200 (único pago)</td>
+        </tr>
+        <tr>
+            <td>Gestión mensual</td>
+            <td>Optimización, seguimiento, A/B testing, reportes</td>
+            <td>$2,900 / mes</td>
+        </tr>
+        </table>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Soluciones Digitales - SD - Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>

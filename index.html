@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menú</title>
+        <meta charset="UTF-8" />
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            html, body {
+                height: 100%;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                font-family: Arial, sans-serif;
+                background-color: #eefcfa;
+                color: #414949;
+            }
+            header {
+                background-color: #259186;
+                color: rgb(255, 255, 255);
+                padding: 15px;
+                text-align: center;
+            }
+            header h1 {
+                font-size: 28px;
+                margin-bottom: 5px;
+            }
+            nav {
+                background-color: #26beb1;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 10px 0;
+            }
+            nav a {
+                color: rgb(255, 255, 255);
+                padding: 10px 15px;
+                margin: 5px;
+                text-decoration: none;
+                background-color: #1a8178;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+            nav a:hover {
+                background-color: #45b1a5;
+            }
+            nav a:active {
+                background-color: #13787a;
+            }
+            main {
+                flex: 1;
+                padding: 20px;
+            }
+            main h2 {
+                color: #259186;
+                margin-bottom: 10px;
+            }
+            footer {
+                background-color: #259186;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                padding: 12px;
+            }
+            @media (max-width: 768px) {
+                nav {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                nav a {
+                    width: 90%;
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Menú de enlaces</h1>
+            <p>Estudiante: Dora Abigail Morales</p>
+        </header>
+        <nav>
+            <a href="http://localhost/Clasepractica1/ej01.html">Ejercicio 01</a>
+            <a href="http://localhost/Clasepractica1/Inicio.html">Ejercicio 02</a>
+        </nav>
+        <main>
+            <h2>Ejercicios de la clase práctica 1</h2>
+            <p>Haz clic en cualquiera de los dos enlaces del menú superior para ver el contenido de cada ejercicio.</p>
+        </main>
+        <footer>
+            <p>&copy; 2025 Dora Abigail Morales — Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
